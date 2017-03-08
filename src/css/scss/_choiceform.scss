@@ -1,0 +1,84 @@
+/* -------------------------------------
+    CHOICE FORM
+------------------------------------- */
+.choice-update-wrapper {
+  background-color: #F2F2F2;
+  td {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .main-wrapper {
+    max-width: 538px;
+    background-color: $cf-purple;
+    margin: auto;
+  }
+
+  .wrapper-top {
+    padding: 36px 64px 76px;
+
+    @media (max-width: 538px) {
+      padding: 16px !important;
+    }
+
+    .title {
+      margin-top: 56px;
+      h1 {
+        color: $cf-white;
+      }
+    }
+
+    .imgs-description {
+      td {
+        width: 20%;
+      }
+      p {
+        color: $cf-blue;
+        font-size: 9px;
+      }
+      svg {
+        width:  42px;
+        height: 42px;
+        @media (max-width: 538px) {
+          width:  32px !important;
+          height: 32px !important;
+        }
+      }
+    }
+    
+    .text-description {
+      h3, p {
+        color: $cf-white;
+      }
+    }
+  }
+
+  .wrapper-bottom {
+    background-color: #FAFAFA;
+    padding: 72px 64px 38px;
+    @media (max-width: 538px) {
+      padding: 16px !important;
+    }
+    h3, h2, p {
+      color: $cf-sub-purple;
+    }
+    h2 {
+      line-height: 32px;
+    }
+  }
+}
